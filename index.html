@@ -1,30 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <link rel="stylesheet" href="style.css">
-      <div class="wrapper userSelectNone" style="background: #2f3136;color: #ffffff;">
-        <h5 class="smallText header" style="color: #b9bbbe;">YOU'VE BEEN INVITED TO JOIN A SERVER</h5>
-        <div class="content">
-          <div class="icon" tabindex="0" role="button" style="background-image: url(&quot;https://cdn.discordapp.com/icons/573954110454366214/a_fc6c9b276f716f536a196331ea990133.gif?size=512&quot;); margin-right: 16px;-webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;"></div>
-          <div class="buttonFlex" style="flex: 1 1 auto;display: -webkit-box;display: -ms-flexbox;display: flex;">
+<html lang="en_US">
+<meta charset="UTF-8">
+<body>
+<link rel="stylesheet" href="style.css">
+<div class="wrapper userSelectNone" style="background: #2f3136;color: #ffffff;">
+    <h5 class="smallText header" style="color: #b9bbbe;">YOU'VE BEEN INVITED TO JOIN A SERVER</h5>
+    <div class="content">
+        <div class="icon" tabindex="0" role="button"
+             style="background-image: url(&quot;https://cdn.discordapp.com/icons/573954110454366214/a_fc6c9b276f716f536a196331ea990133.gif?size=512&quot;); margin-right: 16px;-webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;"></div>
+        <div class="buttonFlex" style="flex: 1 1 auto;display: -webkit-box;display: -ms-flexbox;display: flex;">
             <div role="button" tabindex="0">
-              <h3 style="margin-bottom: 2px;font-weight: 600;line-height: 20px">
-                <div>
-                  <span>KAMI Blue / カミブルー</span>
-                </div>
-              </h3>
+                <h3 style="margin-bottom: 2px;font-weight: 600;line-height: 20px">
+                    <div>
+                        <span>KAMI Blue / カミブルー</span>
+                    </div>
+                </h3>
             </div>
             <strong class="smallText" style="color: #b9bbbe;text-overflow: ellipsis;overflow: hidden;">
-              <div style="display: flex;align-items: center">
-                <i class="status" style="background-color: #43b581"></i>
-                <span style="margin-right: 8px;font-weight:normal">1,028 Online</span>
-                <i class="status" style="background-color: #747f8d"></i>
-                <span style="margin-right: 8px;font-weight:normal">5,225 Members</span>
-              </div>
+                <div style="display: flex;align-items: center">
+                    <i class="status" style="background-color: #43b581"></i>
+                    <span style="margin-right: 8px;font-weight:normal">1,028 Online</span>
+                    <i class="status" style="background-color: #747f8d"></i>
+                    <span style="margin-right: 8px;font-weight:normal">5,225 Members</span>
+                </div>
             </strong>
-          </div>
-          <a href="https://discord.gg/KfpqwZB" class="button buttonSize" style="background-color: #43b581;color: #fff">Join</a>
         </div>
-      </div>
-    </body>
-  </html> 
+        <a href="#" class="button buttonSize" style="background-color: #43b581;color: #fff" onclick="joinAnimation()">Join</a>
+    </div>
+</div>
+<script>
+    function joinAnimation() {
+        const pre_join = document.querySelector("a");
+        const joining = document.createElement("a");
+        const post_join = document.createElement("a");
+        joining.innerHTML = '<a href="#" class="button buttonSize loading" style="background-color: #43b581;color: #fff">Joining</a>';
+        post_join.innerHTML = '<a href="#" class="button buttonSize" style="background-color: #43b581;color: #fff">Join</a>';
+        pre_join.replaceWith(joining)
+        window.open("https://discord.gg/KfpqwZB")
+        setTimeout(function () {
+            joining.replaceWith(post_join)
+        }, 3000)
+    }
+</script>
+</body>
+</html>
