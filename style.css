@@ -1,379 +1,320 @@
 @font-face {
-    font-family: Whitney;
-    src: url(whitneysemibold.otf);
+     font-family: Whitney;
+     src: url(whitneysemibold.otf);
 }
-
-.content-2U5lSY a {
-    text-decoration: none;
+ .content-2U5lSY a {
+     text-decoration: none;
 }
-
-
-.wrapper-35wsBm {
-    background-color: var(--background-secondary);
-    border-radius: 4px;
-    padding: 16px;
-    width: 432px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
+ .wrapper-35wsBm {
+     background-color: var(--background-secondary);
+     border-radius: 4px;
+     padding: 16px;
+     width: 432px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box 
 }
-
-.userSelectNone-Iy6XEP {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+ .userSelectNone-Iy6XEP {
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none 
 }
-
-.header-2BTCnc {
-    font-weight: 700;
-    margin-bottom: 12px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    color: #0ff;
+ .header-2BTCnc {
+     font-weight: 700;
+     margin-bottom: 12px;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     color: #0ff;
 }
-
-.h5-18_1nd {
-    color: var(--channels-default);
-    font-size: 12px;
-    line-height: 16px
+ .h5-18_1nd {
+     color: var(--channels-default);
+     font-size: 12px;
+     line-height: 16px 
 }
-
-.h4-AQvcAz,.h5-18_1nd {
-    font-weight: 600;
-    text-transform: uppercase
+ .h4-AQvcAz,.h5-18_1nd {
+     font-weight: 600;
+     text-transform: uppercase 
 }
-
-.title-3sZWYQ {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    cursor: default
+ .title-3sZWYQ {
+     -webkit-box-flex: 1;
+     -ms-flex: 1;
+     flex: 1;
+     cursor: default 
 }
-
-.content-2U5lSY {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap
+ .content-2U5lSY {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-flow: row nowrap;
+     flex-flow: row nowrap 
 }
-
-element {
-    background-image: url(https://cdn.discordapp.com/icons/573954110454366214/a_fc6c9b276f716f536a196331ea990133.gif?size=512);
-    flex: 1 1 auto;
-    background: #2f3136;
-    color: #ffffff
+ element {
+     background-image: url(https://cdn.discordapp.com/icons/573954110454366214/a_fc6c9b276f716f536a196331ea990133.gif?size=512);
+     flex: 1 1 auto;
+     background: #2f3136;
+     color: #ffffff 
 }
-
-.guildIcon-lQ0uiM {
-    background-color: var(--background-primary);
-    margin-right: 16px;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto
+ .guildIcon-lQ0uiM {
+     background-color: var(--background-primary);
+     margin-right: 16px;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+     flex: 0 0 auto 
 }
-
-.iconSizeLarge-161qtT {
-    width: 50px;
-    height: 50px
+ .iconSizeLarge-161qtT {
+     width: 50px;
+     height: 50px 
 }
-
-.iconActiveLarge-2nzn9z {
-    border-radius: 15px
+ .iconActiveLarge-2nzn9z {
+     border-radius: 15px 
 }
-
-.icon-3o6xvg {
-    position: relative;
-    background-clip: padding-box;
-    background-color: none;
-    background-position: 50%;
-    background-size: 100% 100%
+ .icon-3o6xvg {
+     position: relative;
+     background-clip: padding-box;
+     background-color: none;
+     background-position: 50%;
+     background-size: 100% 100% 
 }
-
-.guildInfo-1STtYi {
-    min-width: 1px
+ .guildInfo-1STtYi {
+     min-width: 1px 
 }
-
-.directionColumn-35P_nr {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column
+ .directionColumn-35P_nr {
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column 
 }
-
-.noWrap-3jynv6 {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap
+ .noWrap-3jynv6 {
+     -ms-flex-wrap: nowrap;
+     flex-wrap: nowrap 
 }
-
-.justifyCenter-3D2jYp {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+ .justifyCenter-3D2jYp {
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center 
 }
-
-.alignStretch-DpGPf3 {
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch
+ .alignStretch-DpGPf3 {
+     -webkit-box-align: stretch;
+     -ms-flex-align: stretch;
+     align-items: stretch 
 }
-
-.flex-1O1GKY {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
+ .flex-1O1GKY {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex 
 }
-
-.inviteDestination-1fAcY7 {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    margin-bottom: 2px
+ .inviteDestination-1fAcY7 {
+     text-overflow: ellipsis;
+     overflow: hidden;
+     margin-bottom: 2px 
 }
-
-.guildNameWrapper-1RQYer {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
+ .guildNameWrapper-1RQYer {
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex 
 }
-
-.guildName-2hvnt_ {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 20
+ .guildName-2hvnt_ {
+     -webkit-box-flex: 1;
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto;
+     min-width: 0;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     font-size: 20 
 }
-
-.inviteDestinationJoined-3W7Gue {
-    cursor: pointer
+ .inviteDestinationJoined-3W7Gue {
+     cursor: pointer 
 }
-
-.inviteDestination-1fAcY7 {
-    white-space: nowrap
+ .inviteDestination-1fAcY7 {
+     white-space: nowrap 
 }
-
-.size16-1P40sf {
-    font-size: 16px;
-    line-height: 20px
+ .size16-1P40sf {
+     font-size: 16px;
+     line-height: 20px 
 }
-
-.base-1x0h_U {
-    font-weight: 600;
-    color: var(--header-primary);
-    /*! font-size: 17; */
+ .base-1x0h_U {
+     font-weight: 600;
+     color: var(--header-primary);
+    /*! font-size: 17;
+     */
 }
-
-.guildDetail-1nRKNE {
-    text-overflow: ellipsis;
-    overflow: hidden
+ .guildDetail-1nRKNE {
+     text-overflow: ellipsis;
+     overflow: hidden 
 }
-
-.statusCounts-2qk4EE {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+ .statusCounts-2qk4EE {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center 
 }
-
-.statusOnline-8PnF5L {
-    background-color: #43b581
+ .statusOnline-8PnF5L {
+     background-color: #43b581 
 }
-
-.statusOffline-37RKt7 {
-    background-color: #747f8d
+ .statusOffline-37RKt7 {
+     background-color: #747f8d 
 }
-
-.status-2L8Zc7 {
-    display: block;
-    margin-right: 4px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%
+ .status-2L8Zc7 {
+     display: block;
+     margin-right: 4px;
+     width: 8px;
+     height: 8px;
+     border-radius: 50% 
 }
-
-.channelIcon-11pgiB,.status-2L8Zc7 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto
+ .channelIcon-11pgiB,.status-2L8Zc7 {
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+     flex: 0 0 auto 
 }
-
-.count-30T-5k:last-child {
-    margin-right: 0
+ .count-30T-5k:last-child {
+     margin-right: 0 
 }
-
-.count-30T-5k,.guildDetail-1nRKNE {
-    white-space: nowrap;
-    color: var(--interactive-normal)
+ .count-30T-5k,.guildDetail-1nRKNE {
+     white-space: nowrap;
+     color: var(--interactive-normal) 
 }
-
-.count-30T-5k {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    margin-right: 8px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    color: #b9bbbe;
+ .count-30T-5k {
+     -webkit-box-flex: 0;
+     -ms-flex: 0 1 auto;
+     flex: 0 1 auto;
+     margin-right: 8px;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     color: #b9bbbe;
 }
-
-.guildDetail-1nRKNE {
-    font-size: 14px;
-    line-height: 16px
+ .guildDetail-1nRKNE {
+     font-size: 14px;
+     line-height: 16px 
 }
-
-.colorStandard-2KCXvj {
-    color: #b9bbbe;
+ .colorStandard-2KCXvj {
+     color: #b9bbbe;
 }
-
-.size14-e6ZScH {
-    font-size: 12px;
-    line-height: 16px;
+ .size14-e6ZScH {
+     font-size: 12px;
+     line-height: 16px;
 }
-
-.button-3To2tQ.buttonSize-DbrWhv {
-    height: 40px;
-    padding-left: 20px;
-    padding-right: 20px
+ .button-3To2tQ.buttonSize-DbrWhv {
+     height: 40px;
+     padding-left: 20px;
+     padding-right: 20px 
 }
-
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-    background-color: #43b581
+ .lookFilled-1Gx00P.colorGreen-29iAKY {
+     background-color: #43b581 
 }
-
-.button-3To2tQ {
-    -ms-flex-item-align: center;
-    align-self: center;
-    margin-left: 10px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto
+ .button-3To2tQ {
+     -ms-flex-item-align: center;
+     align-self: center;
+     margin-left: 10px;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+     flex: 0 0 auto 
 }
-
-.grow-q77ONN,.sizeIcon-1-kvKI {
-    width: auto
+ .grow-q77ONN,.sizeIcon-1-kvKI {
+     width: auto 
 }
-
-.lookFilled-1Gx00P,.lookInverted-2D7oAl {
-    -webkit-transition: background-color .17s ease,color .17s ease;
-    transition: background-color .17s ease,color .17s ease
+ .lookFilled-1Gx00P,.lookInverted-2D7oAl {
+     -webkit-transition: background-color .17s ease,color .17s ease;
+     transition: background-color .17s ease,color .17s ease 
 }
-
-.button-38aScr {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    background: 0 0;
-    background-color: transparent;
-    border: 0;
-    border-radius: 3px;
-    padding: 2px 16px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+ .button-38aScr {
+     position: relative;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     background: 0 0;
+     background-color: transparent;
+     border: 0;
+     border-radius: 3px;
+     padding: 2px 16px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none 
 }
-
-body,button {
-    border: 0
+ body,button {
+     border: 0 
 }
-
-.lookFilled-1Gx00P .contents-18-Yxp,.lookInverted-2D7oAl .contents-18-Yxp,.lookLink-9FtZy- .contents-18-Yxp,.lookOutlined-3sRXeN .contents-18-Yxp {
-    margin: 0 auto;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden
+ .lookFilled-1Gx00P .contents-18-Yxp,.lookInverted-2D7oAl .contents-18-Yxp,.lookLink-9FtZy- .contents-18-Yxp,.lookOutlined-3sRXeN .contents-18-Yxp {
+     margin: 0 auto;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden 
 }
-
-a,button,div,input,select,span,strong,textarea {
-    outline: 0
+ a,button,div,input,select,span,strong,textarea {
+     outline: 0 
 }
-
-a,abbr,acronym,address,applet,big,blockquote,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-family: inherit;
-    font-size: 100%;
-    vertical-align: baseline
+ a,abbr,acronym,address,applet,big,blockquote,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-weight: inherit;
+     font-style: inherit;
+     font-family: inherit;
+     font-size: 100%;
+     vertical-align: baseline 
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    vertical-align: baseline
+ body {
+     margin: 0;
+     padding: 0;
+     font-weight: inherit;
+     font-style: inherit;
+     font-size: 100%;
+     vertical-align: baseline 
 }
-
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-    color: #fff
+ .lookFilled-1Gx00P.colorGreen-29iAKY {
+     color: #fff 
 }
-
-.button-3To2tQ {
-    white-space: nowrap
+ .button-3To2tQ {
+     white-space: nowrap 
 }
-
-.height20-mO2eIN {
-    line-height: 20px
+ .height20-mO2eIN {
+     line-height: 20px 
 }
-
-.button-38aScr {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px
+ .button-38aScr {
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 16px 
 }
-
-::placeholder,body,button,input,select,textarea {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    text-rendering: optimizeLegibility
+ ::placeholder,body,button,input,select,textarea {
+     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+     text-rendering: optimizeLegibility 
 }
-
-::-webkit-input-placeholder,body,button,input,select,textarea {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    text-rendering: optimizeLegibility
+ ::-webkit-input-placeholder,body,button,input,select,textarea {
+     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+     text-rendering: optimizeLegibility 
 }
-
-button {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    cursor: pointer
+ button {
+     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+     font-weight: 500;
+     cursor: pointer 
 }
-
-.cursorDefault-331ZcI {
-    cursor: default
+ .cursorDefault-331ZcI {
+     cursor: default 
 }
-
-.appMount-3lHmkl,body {
-    text-rendering: optimizeLegibility
+ .appMount-3lHmkl,body {
+     text-rendering: optimizeLegibility 
 }
-
-body {
-    line-height: 1;
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    background-color: #36393f;
+ body {
+     line-height: 1;
+     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+     background-color: #36393f;
 }
