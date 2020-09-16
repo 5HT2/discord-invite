@@ -60,11 +60,13 @@ element {
     width: 8px;
     height: 8px;
     border-radius: 50%;
+    font-weight: normal
 }
 
 .smallText {
     font-size: 12px;
     line-height: 16px;
+    /*! font-weight: normal; */
 }
 
 .button.buttonSize {
