@@ -3,6 +3,11 @@
     src: url(whitneysemibold.otf);
 }
 
+.content-2U5lSY a {
+    text-decoration: none;
+}
+
+
 .wrapper-35wsBm {
     background-color: var(--background-secondary);
     border-radius: 4px;
