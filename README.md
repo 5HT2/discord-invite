@@ -1,5 +1,5 @@
 # discord-invite
-The required CSS + HTML for a Discord Invite
+ A CSS recreation of the Discord invite 
 
 ### Preview
 
